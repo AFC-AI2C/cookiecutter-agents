@@ -17,6 +17,10 @@ dependencies = [
   "typer"
 ]
 requires-python = ">= 3.10"
+dependencies = [
+  "rigging",
+  "dreadnode[all]"
+]
 
 [project.optional-dependencies]
 test = [

@@ -1,11 +1,11 @@
 {
-  "full_name": "Vic Fernandez III",
-  "email": "vic@deathlabs.io",
-  "github_username": "cyberphor",
-  "pypi_package_name": "ai-agents",
-  "project_name": "AI Agents",
+  "full_name": "First Last",
+  "email": "first.last@domain.tld",
+  "github_username": "anonymous",
+  "pypi_package_name": "miserable-fishsticks",
+  "project_name": "Miserable Fishsticks",
   "project_slug": "{{ cookiecutter.pypi_package_name.replace('-', '_') }}",
-  "project_short_description": "Boilerplate code for creating an AI agent.",
+  "project_short_description": "A Python-based framework for orchestrating agents that cooperate, compete, and occasionally complain while solving complex tasks. Each agent has its own goals, knowledge base, and personality profile.",
   "pypi_username": "{{ cookiecutter.github_username }}",
   "first_version": "0.0.1",
   "__gh_slug": "{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}"
