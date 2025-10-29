@@ -16,7 +16,7 @@ license = {text = "MIT"}
 dependencies = [
   "typer",
   "rigging",
-  "dreadnode[all]"
+  "dreadnode"
 ]
 requires-python = ">= 3.10"
 
