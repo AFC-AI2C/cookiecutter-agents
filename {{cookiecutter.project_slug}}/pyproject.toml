@@ -32,7 +32,7 @@ test = [
 ]
 
 [project.scripts]
-{{cookiecutter.project_slug}} = "{{cookiecutter.project_slug}}.cli:app"
+{{cookiecutter.package_name}} = "{{cookiecutter.package_name}}.cli:app"
 
 [tool.ty]
 # All rules are enabled as "error" by default; no need to specify unless overriding.
