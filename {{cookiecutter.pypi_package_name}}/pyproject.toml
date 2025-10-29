@@ -1,13 +1,13 @@
 [project]
-name = "{{cookiecutter.pypi_package_name}}"
+name = "{{cookiecutter.package_name}}"
 version = "{{ cookiecutter.first_version }}"
 description = "{{cookiecutter.project_short_description}}"
 readme = "README.md"
 authors = [
-  {name = "{{cookiecutter.full_name}}", email = "{{cookiecutter.email}}"}
+  {name = "{{cookiecutter.full_name}}", username = "{{cookiecutter.github_username}}"}
 ]
 maintainers = [
-  {name = "{{cookiecutter.full_name}}", email = "{{cookiecutter.email}}"}
+  {name = "{{cookiecutter.full_name}}", username = "{{cookiecutter.github_username}}"}
 ]
 classifiers = [
     # TODO
