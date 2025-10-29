@@ -10,6 +10,7 @@ list:
 # Install requirements
 requirements:
 	uv sync --all-extras --dev
+    find . -name '*.egg-info' -exec rm -fr {} +
 
 # Run all the formatting, linting, and testing commands
 qa:
