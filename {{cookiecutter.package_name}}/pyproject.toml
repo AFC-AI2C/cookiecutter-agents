@@ -31,11 +31,6 @@ test = [
     "ipdb", # debugging
 ]
 
-[project.urls]
-bugs = "https://github.com/{{cookiecutter.__gh_slug}}/issues"
-changelog = "https://github.com/{{cookiecutter.__gh_slug}}/blob/master/changelog.md"
-homepage = "https://github.com/{{cookiecutter.__gh_slug}}"
-
 [project.scripts]
 {{cookiecutter.project_slug}} = "{{cookiecutter.project_slug}}.cli:app"
 

@@ -1,9 +1,9 @@
 {
   "full_name": "First Last",
   "github_username": "anonymous",
-  "package_name": "miserable-fishsticks",
   "project_name": "Miserable Fishsticks",
-  "project_slug": "{{ cookiecutter.package_name.replace('-', '_') }}",
+  "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+  "package_name": "{{ cookiecutter.project_slug|replace('-', '_') }}",
   "first_version": "0.0.1",
   "llm_framework": "rigging"
 }
