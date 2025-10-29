@@ -1,10 +1,10 @@
 {
   "full_name": "Dolores Bass",
-  "github_username": "offthehook5050",
+  "github_username": "offthehook",
   "project_name": "Miserable Fishsticks",
   "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
-  "project_description": "A general-purpose Python agent that provides a sandboxed environment for executing Python code to accomplish user-defined tasks. It leverages a Large Language Model (LLM) to interpret natural language instructions, generate Python code, and execute it securely within a Docker container. The agent interacts through an embedded Jupyter kernel, iteratively writing and running code until the task is complete.",
   "package_name": "{{ cookiecutter.project_slug|replace('-', '_') }}",
+  "project_description": "A general-purpose Python agent that provides a sandboxed environment for executing Python code to accomplish user-defined tasks. It leverages a Large Language Model (LLM) to interpret natural language instructions, generate Python code, and execute it securely within a Docker container. The agent interacts through an embedded Jupyter kernel, iteratively writing and running code until the task is complete.",
   "first_version": "0.0.1",
   "llm_framework": "rigging"
 }
