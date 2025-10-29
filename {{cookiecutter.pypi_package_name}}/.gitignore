@@ -1,3 +1,5 @@
+# From https://github.com/github/gitignore/blob/main/Python.gitignore 2025-07-30
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -201,10 +203,3 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-
-
-######### Added custom Cookiecutter PyPackage generated dirs here
-output/
-python_boilerplate/
-cookiecutter-pypackage-env/
-python-boilerplate/
