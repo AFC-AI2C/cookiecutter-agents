@@ -2,6 +2,7 @@
 
 # Default target: show available commands
 .PHONY: list requirements qa testall test pdb coverage build version tag clean clean-build clean-pyc clean-test
+.SILENT: list requirements qa testall test pdb coverage build version tag clean clean-build clean-pyc clean-test
 
 list:
 	@echo "Available targets:"
@@ -9,8 +10,8 @@ list:
 
 # Install requirements
 requirements:
-	uv sync --all-extras --dev
-    find . -name '*.egg-info' -exec rm -fr {} +
+	uv sync --all-extras --dev &&\
+	find . -name '*.egg-info' -exec rm -fr {} +
 
 # Run all the formatting, linting, and testing commands
 qa:
