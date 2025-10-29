@@ -14,13 +14,11 @@ classifiers = [
 ]
 license = {text = "MIT"}
 dependencies = [
-  "typer"
-]
-requires-python = ">= 3.10"
-dependencies = [
+  "typer",
   "rigging",
   "dreadnode[all]"
 ]
+requires-python = ">= 3.10"
 
 [project.optional-dependencies]
 test = [
